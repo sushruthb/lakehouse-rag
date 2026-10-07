@@ -102,4 +102,4 @@ In the Streamlit UI → **Data Lineage** tab, enter any `paper_id` to trace its 
 
 Built by **Sushruth Bharath H.G** — Data Architect with 20+ years in enterprise data platforms (SAP Labs, Brocade, Yahoo). This project demonstrates how Lakehouse architecture — Medallion pipelines, Delta Lake, dbt, governance — becomes the foundation for enterprise AI.
 
-[LinkedIn](https://linkedin.com/in/sushruthbharath) · [GitHub](https://github.com/sushruthb)
+[LinkedIn](https://linkedin.com/in/sushruth-bharath-hg-81a9895) · [GitHub](https://github.com/sushruthb)
