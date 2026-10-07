@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: silver_arxiv
+    description: "Cleaned and deduplicated arXiv papers"
+    columns:
+      - name: paper_id
+        tests:
+          - not_null
+          - unique
+      - name: title
+        tests:
+          - not_null
+      - name: abstract
+        tests:
+          - not_null
+      - name: category
+        tests:
+          - not_null

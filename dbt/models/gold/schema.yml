@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: gold_arxiv_chunks
+    description: "Chunked arXiv paper abstracts ready for embedding"
+    columns:
+      - name: paper_id
+        tests:
+          - not_null
+      - name: embed_text
+        tests:
+          - not_null
+      - name: chunk_index
+        tests:
+          - not_null

@@ -1,0 +1,22 @@
+name: lakehouse_rag
+version: "1.0.0"
+config-version: 2
+
+profile: lakehouse_rag
+
+model-paths: ["models"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+
+models:
+  lakehouse_rag:
+    silver:
+      +materialized: external
+      +location: "s3://silver/delta/{{ model.name }}"
+      +options:
+        format: delta
+    gold:
+      +materialized: external
+      +location: "s3://gold/delta/{{ model.name }}"
+      +options:
+        format: delta
