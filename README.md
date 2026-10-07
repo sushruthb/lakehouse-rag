@@ -68,7 +68,7 @@ Enterprises want AI on their data. Most RAG demos skip the hard part: **governed
 
 ```bash
 # 1. Clone and configure
-git clone https://github.com/your-username/lakehouse-rag
+git clone https://github.com/sushruthb/lakehouse-rag
 cd lakehouse-rag
 cp .env.example .env
 # Edit .env and add your ANTHROPIC_API_KEY
@@ -102,4 +102,4 @@ In the Streamlit UI → **Data Lineage** tab, enter any `paper_id` to trace its 
 
 Built by **Sushruth Bharath H.G** — Data Architect with 20+ years in enterprise data platforms (SAP Labs, Brocade, Yahoo). This project demonstrates how Lakehouse architecture — Medallion pipelines, Delta Lake, dbt, governance — becomes the foundation for enterprise AI.
 
-[LinkedIn](https://linkedin.com/in/sushruthbharath) · [GitHub](https://github.com/your-username)
+[LinkedIn](https://linkedin.com/in/sushruthbharath) · [GitHub](https://github.com/sushruthb)
